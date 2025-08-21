@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #f4f6f7;
+}
+
+h1 {
+  background: #2c3e50;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#map {
+  height: 300px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+form {
+  margin: 15px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: #27ae60;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #219150;
+}
+
+#sightings {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Censo de Animales</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2c3e50">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <h1>🐾 Censo de Animales</h1>
+
+  <div id="map"></div>
+
+  <form id="census-form">
+    <label for="animal">Animal avistado:</label>
+    <select id="animal">
+      <option value="zorro">Zorro</option>
+      <option value="ciervo">Ciervo</option>
+      <option value="jabalí">Jabalí</option>
+      <option value="lobo">Lobo</option>
+      <option value="ave">Ave</option>
+    </select>
+
+    <label for="zona">Zona:</label>
+    <select id="zona"></select>
+
+    <button type="submit">Guardar avistamiento</button>
+  </form>
+
+  <h3>Filtrar avistamientos:</h3>
+  <label for="filtro-zona">Zona:</label>
+  <select id="filtro-zona">
+    <option value="todas">Todas</option>
+  </select>
+
+  <label for="filtro-fecha">Fecha:</label>
+  <input type="date" id="filtro-fecha">
+
+  <ul id="sightings"></ul>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
