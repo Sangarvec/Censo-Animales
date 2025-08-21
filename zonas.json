@@ -1,5 +1,8 @@
 [
-  { "id": 1, "nombre": "Zona Norte - Monte Quemado" },
-  { "id": 2, "nombre": "Zona Este - Río Bernesga" },
-  { "id": 3, "nombre": "Zona Sur - Valle Verde" }
+  { "id": 1, "nombre": "La Chana" },
+  { "id": 2, "nombre": "La Vega" },
+  { "id": 3, "nombre": "El Cerral" },
+  { "id": 4, "nombre": "Las Parcelas" },
+  { "id": 5, "nombre": "El Pozo" }
 ]
+
